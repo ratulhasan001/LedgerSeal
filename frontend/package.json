@@ -1,7 +1,7 @@
 {
-  "name": "first_app",
+  "name": "ledgerseal-frontend",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "axios": "^1.9.0",
-    "crypto-js": "^4.2.0",
     "ethers": "^6.14.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
