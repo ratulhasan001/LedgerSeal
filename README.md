@@ -170,6 +170,18 @@ npm run lint      # ESLint
 - Files pinned to IPFS are public. Do not register confidential files unless you encrypt them first. The on-chain fingerprint alone reveals nothing about a file's contents.
 - The deployer is the only Admin at first. Consider transferring `DEFAULT_ADMIN_ROLE` to a multisig for production.
 
+## Related publication
+
+The document-verification design behind LedgerSeal is described in:
+
+> R. Hasan, S. Farjana, Y. Oley, M. O. Pranto and M. A. Rayhan, "A Gas-Optimized Blockchain Framework for Scalable Document Verification Using Dynamic Access Control and IPFS," *International Conference on Power, Electronics, Communications, Computing, and Intelligent Infrastructure (PECCII 2026)*, IEEE, 2026. doi: [10.1109/PECCII70991.2026.11662071](https://doi.org/10.1109/PECCII70991.2026.11662071)
+
+This repository contains the single-document registry contract, its Foundry test suite and the React client. Gas figures reported in the paper come from the paper's own benchmark setup.
+
 ## License
 
 [MIT](LICENSE)
+
+---
+
+Ratul Hasan · [ratulhasan.dev](https://ratulhasan.dev)
